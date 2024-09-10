@@ -1,0 +1,78 @@
+.right{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.right .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.sect{
+    margin-top: 4vh;
+}
+
+.right .links .popular{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.right .links .show{
+    color: gray;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+.boxes{
+    display: flex;
+    margin-top: 16px;
+    overflow: hidden;
+}
+
+.box{
+    height: 280px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 8px;
+}
+
+.box .image{
+    margin-top: 16px;
+    height: 12vw;
+    width: 12vw;
+    min-width: 150px;
+    min-height: 150px;
+    background-image: url('../images/demoMan.png');
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    box-shadow: 0px 0px 16px black;
+    z-index: 10;
+}
+
+.box .name{
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.box .designation{
+    color: gray;
+}
+
+.albums .box .image{
+    border-radius: 8px;
+    background-image: url('../images/albumCover.png');
+}

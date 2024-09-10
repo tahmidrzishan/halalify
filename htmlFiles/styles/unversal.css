@@ -1,0 +1,60 @@
+:root{
+    --darker: #121212;
+    --dark: #1f1f1f;
+    --darkest: #000;
+    --background-elevated-base: #1f1f1f;
+    --background-elevated-highlight: #2a2a2a;
+    --background-elevated-press: #191919;
+}
+
+.darkest{
+    background-color: var(--darkest);
+}
+
+.darker{
+    background-color: var(--background-base);
+}
+
+.dark{
+    background-color: var(--dark);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    margin-top: 10vh;
+}
+
+.left{
+    width: 25%;
+    margin: 8px;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom{
+    height: 10vh;
+}
+
+.right{
+    width: 75%;
+    margin: 8px;
+    margin-left: 0;
+    border-radius: 8px;
+    padding: 16px;
+}

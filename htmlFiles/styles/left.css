@@ -1,0 +1,110 @@
+.left .top a{
+    text-decoration: none;
+    color: gray;
+    transition: 500ms;
+}
+
+.left .top a:hover{
+    color: white;
+}
+
+.left .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+    margin-bottom: 24px;
+}
+
+.left .top .name{
+    font-size: 1.2rem;
+}
+
+.left .top .add{
+    font-size: 2rem;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 500ms;
+}
+
+.left .top .add:hover{
+    background-color: gray;
+}
+
+.mid{
+    overflow: scroll;
+    margin-bottom: 16px;
+}
+
+.card{
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 32px;
+}
+
+.card .title{
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.card .explanation{
+    font-size: 0.8rem;
+}
+
+.card .button{
+    padding: 8px;
+    margin-top: 16px;
+    border-radius: 16px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+}
+
+.left .links a{
+    font-size: 0.8rem;
+    margin: 8px 8px;
+    margin-bottom: 16px;
+}
+
+.left .links a:hover{
+    text-decoration: none;
+}
+
+.left .links .active{
+    font-weight: bold;
+}
+
+.left .links .active:hover{
+    text-decoration: underline;
+}
+
+.fas{
+    color: white;
+    margin: 4px;
+}
+
+.lang{
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.bottom{
+    margin-top: 16px;
+}
