@@ -1,3 +1,16 @@
+.left{
+    width: 25%;
+    margin: 8px;
+    margin-left: 0;
+    border-radius: 8px;
+    padding: 16px 16px;
+    padding-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
 .left .top a{
     text-decoration: none;
     color: gray;
@@ -36,6 +49,7 @@
 }
 
 .mid{
+    height: 80%;
     overflow: scroll;
     margin-bottom: 16px;
 }
@@ -49,7 +63,7 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 
 .card .title{
@@ -72,10 +86,22 @@
     color: black;
 }
 
+.left .bottom{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+}
+
+.left .links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
 .left .links a{
     font-size: 0.8rem;
-    margin: 8px 8px;
-    margin-bottom: 16px;
+    margin: 4px 8px;
+    /* margin-bottom: 16px; */
 }
 
 .left .links a:hover{
@@ -95,7 +121,8 @@
     margin: 4px;
 }
 
-.lang{
+.left .lang{
+    position: relative;
     color: white;
     font-weight: bold;
     border: 2px solid white;
@@ -103,8 +130,5 @@
     display: flex;
     align-items: center;
     margin-top: 16px;
-}
-
-.bottom{
-    margin-top: 16px;
+    margin-bottom: 16px;
 }

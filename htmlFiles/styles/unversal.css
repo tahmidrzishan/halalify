@@ -12,7 +12,7 @@
 }
 
 .darker{
-    background-color: var(--background-base);
+    background-color: var(--darker);
 }
 
 .dark{
@@ -38,23 +38,7 @@ body{
     margin-top: 10vh;
 }
 
-.left{
-    width: 25%;
-    margin: 8px;
-    border-radius: 8px;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-}
-
 .bottom{
     height: 10vh;
 }
 
-.right{
-    width: 75%;
-    margin: 8px;
-    margin-left: 0;
-    border-radius: 8px;
-    padding: 16px;
-}
